@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;       /*1rem=16px */
+}
+@media(max-width:2560px){
+   html{font-size: 117%;}
+} 
+@media(max-width:1440px){
+   html{font-size: 66%;}
+} 
+@media(max-width:1024px) {
+   html {
+       font-size: 50%;
+   }
+}
+
+@media(max-width:768px) {
+   html {
+       font-size: 90%;
+   }
+}
+
+@media(max-width:425px) {
+   html {
+       font-size: 70%;
+   }
+}
+
+@media(max-width:365px) {
+   html {
+       font-size: 35%;
+   }
+}
+
+@media(max-width:320px) {
+   html {
+       font-size: 25%;
+   }
+} 
+
+/* section 1 */
+.mdiv {
+    height: 60rem;
+    width: 136.6rem;
+    /* background: linear-gradient(to bottom, white, rgb(132, 239, 255) 40%, rgb(0, 150, 255)); */
+    /* background-image: url(photo/aboutus/background1.jpg);background-repeat: no-repeat;background-size: contain; */
+
+}
+.menubar {
+    height: 8rem;
+    width: 136.6rem;
+    position: fixed;
+    display: flex;
+    top: 0rem;
+    background-color: white;
+    box-shadow: 1rem 3rem 1rem 1.8rem white;
+
+}
+.menubar .logo img {
+    height: 8rem;
+    width: 20rem;
+    margin-left: 10rem;
+    margin-top: 1.4rem;
+}
+.navbar {
+    margin-left: 24rem;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+    color: rgb(18, 18, 104);
+    text-decoration: none;
+    margin-left: 4rem;
+}
+.navbar a:hover {
+    color: rgb(45, 151, 187);
+}
+.navbar .bt1 {
+    height: 2.8rem;
+    width: 11rem;
+    border-radius: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 18, 104);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 4rem;
+    padding: .3rem 2rem .5rem;
+}
+.navbar .bt1:hover {
+    background-color: rgb(121, 233, 250);
+    height: 3rem;
+    width: 11rem;
+    color: rgb(45, 151, 187);
+    border: .1rem solid rgb(18, 18, 104);
+}
+
+/* section 2 */
+.about .aboutdes{
+    height: 55rem;width: 136.6rem;margin-top: 11.5rem;text-align: center;
+    background: linear-gradient(to bottom, white, rgb(132, 239, 255) 40%, rgb(0, 150, 255));
+
+}
+.aboutdes h1{
+    font-size: 10rem;font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37,58,113);margin-left: 1rem;padding-top: 12rem;
+}
+.aboutdes p{
+    height: 20rem;width: 110rem;font-size: 1.8rem;margin-left: 11rem;margin-top: 1.5rem; 
+}
+
+/* section 3 */
+.vision{
+    height: 30rem;width: 136.6rem;background-color: rgb(244,245,249);
+    display: flex;place-items: center;box-shadow:.8rem .2rem .5rem .5rem gray;
+}
+.vision .ourvisionimage{
+height: 30rem;width: 40rem;background-image: url(photo/aboutus/ourvision.JPG);
+background-size: contain;background-repeat: no-repeat;
+margin-top: 3rem;margin-left: 10rem;
+}
+.ourvision-des{
+    margin-left: 10rem;width: 65rem;
+}
+.ourvision-des h1{
+    color: rgb(18, 18, 104);
+    font-size: 2.5rem;margin-bottom: .5rem;
+}
+.ourvision-des p{
+    font-size: 1.8rem;margin-top: 1rem;color:gray;
+}
+
+
+/* section 4 */ 
+ .mcontent{
+    height: 173rem;width: 136.6rem;background-image: url(photo/aboutus/case3.jpg);
+    background-size: contain;display: grid;justify-content: center;
+}
+.cloud{
+    height: 25rem;width: 110rem;background-color: white;
+    box-shadow: .2rem .2rem 1rem gray;display: flex;
+    border-left: .4rem solid blue;place-items: center;
+    margin-top: 5rem;
+}
+
+.cloud .image{
+    background-image: url(photo/aboutus/cloud.JPG);background-size: contain;margin-top: 12rem;
+    background-repeat: no-repeat;height: 25rem;width: 25rem;margin-left: 9.5rem;
+}
+.content h3{
+    margin-bottom: 1rem;margin-left: 2.8rem;font-size: 2rem;
+}
+.content p{
+    font-size: 1.5rem;font-weight: bold;margin-left: 2.8rem;
+}
+.mobile{
+    height: 25rem;width: 110rem;background-color: white;
+    box-shadow: .2rem .2rem 1rem gray;display: flex;
+    border-left: .4rem solid rgb(98, 0, 255);place-items: center;
+}
+
+.mobile .image1{
+    background-image: url(photo/aboutus/mobileapplication.JPG);background-size: cover;margin-top: 2rem;
+    background-repeat: no-repeat;height: 15rem;width: 16rem;margin-left: 8.5rem;margin-right: 2rem;
+}
+.content1 h3{
+    margin-bottom: 1rem;font-size: 2rem;
+}
+.content1 p{
+    font-size: 1.5rem;font-weight: bold;
+}
+
+.reserch{
+    height: 25rem;width: 110rem;background-color: white;
+    box-shadow: .2rem .2rem 1rem gray;display: flex;
+    border-left: .4rem solid blue;place-items: center;
+}
+
+.reserch .image2{
+    background-image: url(photo/aboutus/r&d.JPG);background-size: contain;margin-top: 12rem;
+    background-repeat: no-repeat;height: 25rem;width: 25rem;margin-left: 7rem;margin-right: 1rem;
+}
+.content2 h3{
+    margin-bottom: 1rem;font-size: 2rem;
+}
+.content2 p{
+    font-size: 1.5rem;font-weight: bold;
+}
+
+.digital{
+    height: 25rem;width: 110rem;background-color: white;
+    box-shadow: .2rem .2rem 1rem gray;display: flex;
+    border-left: .4rem solid blue;place-items: center;
+}
+
+.digital .image3{
+    background-image: url(photo/aboutus/digitalmarketing.JPG);background-size: contain;margin-top: 12rem;
+    background-repeat: no-repeat;height: 25rem;width: 25rem;margin-left: 8.5rem;margin-right: 1rem;
+}
+.content3 h3{
+    margin-bottom: 1rem;margin-left: 1.5rem;font-size: 2rem;
+}
+.content3 p{
+    font-size: 1.5rem;font-weight: bold;margin-left: 1.5rem;
+}
+
+.value{
+    height: 25rem;width: 110rem;background-color: white;
+    box-shadow: .2rem .2rem 1rem gray;display: flex;
+    border-left: .4rem solid blue;place-items: center;
+}
+
+.value .image4{
+    background-image: url(photo/aboutus/services.JPG);background-size: contain;margin-top: 12rem;
+    background-repeat: no-repeat;height: 25rem;width: 25rem;margin-left: 9.5rem;margin-right: 1rem;
+}
+.content4 h3{
+    margin-bottom: 1rem;margin-left: 2rem;font-size: 2rem;
+}
+.content4 p{
+    font-size: 1.5rem;font-weight: bold;margin-left: 2rem;
+}
+
+
+/* section 7 */
+.s7mdiv {
+    height: 36rem;
+    width: 136.6rem;
+    display: flex;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 18rem;
+    /* align-items: center; */
+    background-color: rgb(0, 82, 138);
+    padding-top: 5rem;
+}
+
+.s7cdiv1 {
+    /* margin-left: 20px; */
+    color: white;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10rem;
+}
+
+.s7cdiv1 .logo {
+    height: 7rem;
+    width: 27rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(photo/client/footer.JPG);
+}
+
+.s7cdiv1 .icon a{
+    font-size: 3rem;color:white;margin-left: .5rem;margin-top: 1rem;
+    text-decoration: none;
+
+}
+
+.s7cdiv1 .icon a:hover{color: rgb(250, 225, 6);}
+.s7cdiv2 a {
+    display: block;
+    width: 14rem;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.s7cdiv2 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+.s7cdiv3 h3 {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+
+}
+
+.s7cdiv3 h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.s7cdiv3 a {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.s7cdiv3 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+
+
+/* section 8 */
+.s8mdiv {
+    height: 7rem;
+    width: 136.6rem;
+    background-color: rgb(0, 61, 102);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s8mdiv p {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.s8mdiv a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.s8mdiv a:hover {
+    color: rgb(250, 225, 6);
+    text-decoration: none;
+    margin-top: 3rem;
+}

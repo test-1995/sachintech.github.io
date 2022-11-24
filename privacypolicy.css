@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html {
+    font-size: 62.5%;       /*1rem=16px */
+}
+@media(max-width:2560px){
+   html{font-size: 117%;}
+} 
+@media(max-width:1440px){
+   html{font-size: 61.7%;}
+} 
+@media(max-width:1024px) {
+   html {
+       font-size: 52%;
+   }
+}
+
+@media(max-width:768px) {
+   html {
+       font-size: 90%;
+   }
+}
+
+@media(max-width:425px) {
+   html {
+       font-size: 70%;
+   }
+}
+
+@media(max-width:365px) {
+   html {
+       font-size: 35%;
+   }
+}
+
+@media(max-width:320px) {
+   html {
+       font-size: 25%;
+   }
+} 
+
+/* section 1 */
+.mdiv {
+    height: 35rem;
+    width: 136.6rem;
+    background: linear-gradient(to bottom, white, rgb(132, 239, 255) 40%, rgb(0, 150, 255));
+
+}
+
+.mdiv h1 {
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menubar {
+    height: 8rem;
+    width: 136.6rem;
+    position: fixed;
+    display: flex;
+    top: 0rem;
+    background-color: white;
+    box-shadow: 1rem 3rem 1rem 1.8rem white;
+}
+
+.menubar .logo img {
+    height: 8rem;
+    width: 20rem;
+    margin-left: 10rem;
+    margin-top: 1.4rem;
+}
+
+.navbar {
+    margin-left: 24rem;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    color: rgb(18, 18, 104);
+    text-decoration: none;
+    margin-left: 4rem;
+}
+
+.navbar a:hover {
+    color: rgb(45, 151, 187);
+}
+
+.navbar .bt1 {
+    height: 2.8rem;
+    width: 11rem;
+    border-radius: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 18, 104);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 4rem;
+    padding: .3rem 2rem .5rem;
+}
+
+.navbar .bt1:hover {
+    background-color: rgb(121, 233, 250);
+    height: 3rem;
+    width: 11rem;
+    color: rgb(45, 151, 187);
+    border: .1rem solid rgb(18, 18, 104);
+}
+
+
+/* SECTION 2 */
+.s2mdiv{
+    height: 35rem;width: 136.6rem;
+    background-image: url(photo/aboutus/case3.jpg);padding-left: 10rem;
+    background-repeat: no-repeat;background-size: cover;
+
+}
+.s2mdiv .p1{
+    font-size: 1.8rem;font-family: Arial, Helvetica, sans-serif;height: 7rem;
+    width: 120rem;padding-top: 10rem;color: black;
+}
+.s2mdiv .p2{
+    font-size: 1.8rem;font-family: Arial, Helvetica, sans-serif;height: 7rem;
+    width: 120rem;padding-top: 4rem;color: black;
+}
+.s2mdiv .p3{
+    font-size: 1.8rem;font-family: Arial, Helvetica, sans-serif;height: 7rem;
+    width: 120rem;padding-top: 3rem;color: black;
+}
+
+/* section 3 */
+.s3mdiv {
+    height: 36rem;
+    width: 136.6rem;
+    display: flex;
+    gap: 17rem;
+    align-items: center;
+    background-color: rgb(0, 82, 138);
+}
+
+.s3cdiv1 {
+    margin-left: 0rem;
+    color: white;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10rem;
+}
+
+.s3cdiv1 .logo {
+    height: 7rem;
+    width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(photo/client/footer.JPG);
+}
+
+.s3cdiv1 .icon a {
+    font-size: 3rem;
+    color: white;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.s3cdiv1 .icon a:hover {
+    color: rgb(250, 225, 6);
+}
+
+.s3cdiv2 a {
+    display: block;
+    width: 14rem;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.s3cdiv2 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+.s3cdiv3 h3 {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+
+}
+
+.s3cdiv3 h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.s3cdiv3 a {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.s3cdiv3 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+
+
+/* section 4 */
+.s4mdiv {
+    height: 7rem;
+    width: 136.6rem;
+    background-color: rgb(0, 61, 102);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s4mdiv p {
+    padding-top: 3rem;
+}
+
+.s4mdiv a {
+    color: white;
+    text-decoration: none;
+}
+
+.s4mdiv a:hover {
+    color: rgb(250, 225, 6);
+    text-decoration: none;
+    margin-top: 3rem;
+}
